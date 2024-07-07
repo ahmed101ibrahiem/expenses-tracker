@@ -15,13 +15,13 @@ class _HomeViewState extends State<HomeView> {
     return SafeArea(
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10).r,
-        child: Column(
+        child: const Column(
           children: [
-            const HomeCustomAppBar(),
+            HomeCustomAppBar(),
             // show data
-            const HomeDashBoardWidget(),
-            const HomeViewAll(),
-            const HomeTransactions(),
+            HomeDashBoardWidget(),
+            HomeViewAll(),
+            HomeTransactions(),
           ],
         ),
       ),
